@@ -1,9 +1,17 @@
 import React from 'react';
-import './App.css';
-import RouteSetup from './routes';
+import './App.scss';
+import { Route, Routes } from 'react-router-dom';
+import MainLayout from './layout';
+import Container from './layout/container';
 
 function App() {
-    return <RouteSetup />;
+    return (
+        <Routes>
+            <Route path="/" element={<MainLayout />}>
+                <Route path="/" element={<Container />} />
+            </Route>
+        </Routes>
+    );
 }
 
 export default App;
