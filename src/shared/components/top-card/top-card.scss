@@ -1,0 +1,53 @@
+.section {
+    position: relative;
+}
+
+.page-title-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #47ea4e;
+    width: 285px;
+    display: inline-block;
+    z-index: 98;
+    height: 130px;
+}
+
+.page-title-holder:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 130px 60px 0 0;
+    border-color: #47ea4e transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.section h3.entry-title {
+    font-size: 16px;
+    line-height: 149%;
+    font-weight: 400;
+    word-break: break-word;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 32px;
+}
+
+.page .page-content {
+    background-color: #fff;
+    padding: 75px;
+}
+
+.no-padding .section-wrapper {
+    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+}
+
+[data-jarallax-element] {
+    z-index: 30 !important;
+}

@@ -1,0 +1,23 @@
+.social {
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.member-social-holder .social a {
+    color: #fff !important;
+}
+.member-social-holder {
+    right: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+}
+.member-right .member-social-holder {
+    left: auto;
+    right: -45px;
+}
+
+.member-social-holder .social a {
+    color: #fff !important;
+}
