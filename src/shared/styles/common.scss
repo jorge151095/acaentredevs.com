@@ -202,19 +202,6 @@ blockquote cite {
     font-weight: 400;
 }
 
-blockquote:before {
-    content: '';
-    background-image: url('../images/quotes_image.png');
-    background-size: 50px;
-    width: 50px;
-    height: 50px;
-    display: block;
-    background-repeat: no-repeat;
-    margin-bottom: 15px;
-    position: absolute;
-    top: -50px;
-}
-
 iframe {
     width: 100%;
 }
@@ -226,6 +213,7 @@ h4,
 h5,
 h6 {
     padding: 20px 0;
+    margin: 0;
 }
 
 h1 {
@@ -268,6 +256,13 @@ pre {
     white-space: pre-wrap;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
 table,
 th,
 td {

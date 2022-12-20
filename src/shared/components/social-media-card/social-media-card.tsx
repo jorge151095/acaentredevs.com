@@ -1,9 +1,9 @@
 import React from 'react';
 import './social-media-card.scss';
-import facebook from './../../../assets/Fb.png';
-import insta from './../../../assets/Insta.png';
-import twitter from './../../../assets/Twitter.png';
-import youtube from './../../../assets/Youtube.png';
+import facebook from '../../../assets/icons/Fb.png';
+import insta from '../../../assets/icons/Insta.png';
+import twitter from '../../../assets/icons/Twitter.png';
+import youtube from '../../../assets/icons/Youtube.png';
 
 interface ISocialMedia {
     href: string;
