@@ -28,6 +28,7 @@ export const NavBar = () => {
                         <VscMenu className="icon" />
                     )}
                 </div>
+                ICON
                 <Link
                     className="link"
                     activeClass="active"

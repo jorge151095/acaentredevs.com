@@ -1,7 +1,11 @@
 import React from 'react';
+import { NavBar } from '../../shared/components/navbar/navbar';
 
 const Header = () => {
-    return <h1></h1>;
+    return <div>
+        ICON
+        <NavBar />
+    </div>;
 };
 
 export default Header;

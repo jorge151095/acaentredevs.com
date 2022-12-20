@@ -6,6 +6,7 @@ body {
     color: #b3b3b3;
     background-color: #ffffff;
     overflow-x: hidden;
+    margin: 0;
 }
 
 body a {
@@ -30,25 +31,6 @@ body pre {
     height: auto;
 }
 
-.doc-loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    background-color: #000;
-}
-
-.doc-loader img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 .content-1170 {
     width: 1170px;
 }
@@ -68,93 +50,6 @@ body pre {
 .section-wrapper {
     position: relative;
     padding: 200px 0 115px 0;
-}
-
-/* ===================================
-    2.1 Global Header Logo/Menu CSS
-====================================== */
-
-.header-holder {
-    z-index: 99 !important;
-    background-color: #060606;
-    width: 100% !important;
-    top: 0;
-    position: fixed;
-    -webkit-transform: translateZ(0);
-}
-
-.sticky-wrapper {
-    height: 77px !important;
-}
-
-.menu-wrapper {
-    width: 98%;
-    max-width: 1450px;
-    min-height: 77px;
-}
-
-.header-logo {
-    line-height: 0;
-    font-size: 0;
-    float: left;
-    position: absolute;
-    transform: translateY(-50%);
-    top: 50%;
-}
-
-.header-logo img {
-    width: 88px;
-    height: 50px;
-}
-
-.menu-holder {
-    float: right;
-    max-width: 85%;
-}
-
-.toggle-holder {
-    display: none;
-    right: 10px;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-#toggle:hover {
-    cursor: pointer;
-}
-
-#toggle div {
-    height: 3px;
-    margin-bottom: 6px;
-    background-color: #fff;
-    width: 22px;
-}
-
-#toggle .second-menu-line {
-    -webkit-transition: -webkit-transform 0.3s ease;
-    transition: transform 0.3s ease;
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
-}
-
-#toggle:hover .second-menu-line {
-    -webkit-transform: translate3d(0, 0, 0) !important;
-    transform: translate3d(0, 0, 0) !important;
-}
-
-#toggle.on .second-menu-line {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
-}
-
-#toggle .third-menu-line {
-    margin-bottom: 5px;
-}
-
-#header-main-menu {
-    display: inline-block;
 }
 
 .sm-clean .has-submenu {
@@ -696,41 +591,6 @@ a.button-dot:hover:before {
     right: 0;
 }
 
-.text-slider-wrapper .owl-theme .owl-prev {
-    background-image: url('images/nav_left.png') !important;
-    background-color: transparent !important;
-    font-size: 0;
-    width: 30px;
-    padding: 0;
-    height: 30px;
-    background-repeat: no-repeat !important;
-    background-size: 30px !important;
-    transition: 0.3s;
-    opacity: 0.7;
-    margin-right: 10px;
-}
-
-.text-slider-wrapper .owl-theme .owl-prev:hover {
-    opacity: 1;
-}
-
-.text-slider-wrapper .owl-theme .owl-next {
-    background-image: url('images/nav_right.png') !important;
-    background-color: transparent !important;
-    font-size: 0;
-    width: 30px;
-    padding: 0;
-    height: 30px;
-    background-repeat: no-repeat !important;
-    background-size: 30px !important;
-    transition: 0.3s;
-    opacity: 0.7;
-}
-
-.text-slider-wrapper .owl-theme .owl-next:hover {
-    opacity: 1;
-}
-
 @-webkit-keyframes fadeIn {
     from {
         opacity: 0;
@@ -785,20 +645,6 @@ a.button-dot:hover:before {
     3. Home Section CSS
 ====================================== */
 
-#home {
-    background-image: url(images/hero_image_01.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: calc(100vh - 77px);
-    display: flex;
-}
-
-#home .section-wrapper {
-    margin: auto;
-    padding: 0;
-}
-
 h1.big-text {
     color: #fff;
     font-size: 80px;
@@ -809,14 +655,6 @@ h1.big-text {
 /* ===================================
     4. Services Section CSS
 ====================================== */
-
-#services {
-    background-image: url(images/on_black_left.png);
-    background-color: #000000;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
 
 .service-holder {
     margin: 25px 0;
@@ -845,41 +683,6 @@ h1.big-text {
     overflow: hidden;
     margin-bottom: -10px;
     -webkit-transform: translateZ(0);
-}
-
-/* ===================================
-    5. About Section CSS
-====================================== */
-
-#about {
-    background-image: url(images/on_white_right.png);
-    background-color: #ffffff;
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-/* ===================================
-    6. Clients Section CSS
-====================================== */
-
-#clients {
-    background-image: url(images/quote_image_01.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* ===================================
-    7. News Section CSS
-====================================== */
-
-#news {
-    background-image: url(images/on_white_left.png);
-    background-color: #ffffff;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: auto;
 }
 
 .blog-holder-scode {
@@ -1089,151 +892,13 @@ h1.big-text {
     transform: translateY(70px);
 }
 
-.close-icon {
-    background-image: url(images/close-left-arrow.png);
-    background-repeat: no-repeat;
-    width: 70px;
-    height: 70px;
-    display: inline-block;
-    margin-bottom: 20px;
-    background-size: 40px;
-    background-position: 50%;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    position: absolute;
-    left: -100px;
-    top: 195px;
-}
-
 .close-icon:hover {
     transform: translateX(-5px);
 }
 
 /* ===================================
-    8.1 Single Portfolio
-====================================== */
-
-.portfolio-item-wrapper {
-    margin-top: 100px;
-    margin-bottom: 50px;
-}
-
-/* ===================================
-    9. Pricing Section CSS
-====================================== */
-
-#pricing {
-    background-image: url(images/on_white_right.png);
-    background-color: #ffffff;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-.pricing-table {
-    padding-bottom: 20px;
-    background-color: #ffffff;
-    margin-top: 30px;
-    max-width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-    border: 2px solid #000;
-    position: relative;
-    text-align: left;
-}
-
-.pricing-wrapper {
-    padding: 0 15%;
-}
-
-.pricing-table-title {
-    color: #000;
-    font-size: 21px;
-    font-weight: 500;
-    padding: 40px 0;
-    margin-bottom: 25px;
-}
-
-.pricing-num {
-    font-size: 200px;
-    font-weight: 700;
-    color: #ffffff;
-    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
-    line-height: 100%;
-    margin-bottom: -10px;
-    position: absolute;
-    top: -50px;
-    right: -9px;
-    z-index: 1;
-}
-
-.pricing-num:before {
-    content: '';
-    width: 150px;
-    background-color: white;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    z-index: -1;
-}
-
-.pricing-table-price {
-    font-size: 100px;
-    line-height: 120%;
-    color: #47ea4e;
-    font-weight: 700;
-}
-
-.pricing-table-desc {
-    font-size: 16px;
-    letter-spacing: 2px;
-}
-
-.pricing-table ul {
-    padding: 0;
-    list-style: none;
-    margin-top: 25px;
-}
-
-.pricing-table ul li {
-    padding: 10px 0;
-    color: #000;
-}
-
-.pricing-list span.fa {
-    color: #47ea4e;
-    margin-right: 25px;
-}
-
-.pricing-list.included-no,
-.pricing-list.included-no span.fa {
-    color: gray;
-}
-
-.pricing-list.included-no span.fa:before {
-    content: '\f00d';
-}
-
-.pricing-table-content-holder {
-    margin-bottom: 40px;
-}
-
-.pricing-button {
-    text-align: center;
-}
-
-/* ===================================
     10. Team Section CSS
 ====================================== */
-
-#team {
-    background-image: url(images/on_black_left.png);
-    background-color: #000000;
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
 
 .member {
     text-align: center;
@@ -1298,120 +963,6 @@ h1.big-text {
 
 .member-social-holder .social a {
     color: #fff !important;
-}
-
-/* ===================================
-    11. Skills Section CSS
-====================================== */
-
-.skills-holder {
-    position: relative;
-    margin: 40px 0;
-}
-
-.skill-holder {
-    margin-bottom: 30px;
-}
-
-.skill-holder:after {
-    clear: both;
-    display: block;
-    content: '';
-}
-
-.skill-percent {
-    font-size: 48px;
-    line-height: 100%;
-    font-weight: 100;
-    width: 100px;
-    display: inline-block;
-    vertical-align: text-top;
-}
-
-.skill {
-    width: 100%;
-    height: 3px;
-    background-color: rgba(202, 202, 202, 0.3);
-    margin-bottom: 30px;
-}
-
-.skill-text {
-    display: inline-block;
-    width: calc(100% - 145px);
-    margin-right: 0;
-    float: right;
-    vertical-align: text-top;
-}
-
-.skill-fill {
-    width: 100%;
-    height: 10px;
-    background-color: #000;
-}
-
-.skill-text span {
-    font-size: 22px;
-    line-height: 35px;
-}
-
-/* ===================================
-    12. Milestones Section CSS
-====================================== */
-
-#millstones {
-    background-image: url(images/on_black_left.png);
-    background-color: #000000;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-
-ul.milestones-holder {
-    padding: 0;
-    list-style: none;
-    margin: 0;
-}
-
-li.milestone {
-    width: 45%;
-    display: inline-block;
-    margin: 30px 9% 30px 0;
-}
-
-li.milestone:nth-child(2n) {
-    margin-right: 0;
-}
-
-li.milestone > div {
-    display: inline-block;
-    vertical-align: text-top;
-}
-
-li.milestone h5 {
-    color: #fff;
-    max-width: 240px;
-    padding-top: 0;
-    line-height: 115%;
-}
-
-li.milestone .milestone-info-left {
-    margin-right: 35px;
-    text-align: right;
-    width: 30%;
-}
-
-li.milestone .milestone-info-right {
-    width: 62%;
-}
-
-p.milestone-num {
-    font-size: 80px;
-    line-height: 100%;
-    font-weight: 700;
-    position: relative;
-    margin-bottom: 0;
-    color: #000000;
-    text-shadow: -1px 0 #b3b3b3, 0 1px #b3b3b3, 1px 0 #b3b3b3, 0 -1px #b3b3b3;
 }
 
 /* ===================================
