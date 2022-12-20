@@ -382,14 +382,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-@media screen and (max-width: 650px) {
-    .blog-item-holder .entry-date.published,
-    .blog-item-holder .cat-links,
-    .single .entry-info div,
-    .single .entry-info .cat-links ul {
-        display: block;
-    }
-}
+
 .blog-item-holder .entry-date.published:after,
 .single .entry-info div:after {
     display: none;
