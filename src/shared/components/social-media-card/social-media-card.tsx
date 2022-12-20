@@ -8,15 +8,16 @@ import insta from '../../../assets/icons/Insta.png';
 interface ISocialMedia {
     instagramUrl?: string;
     facebookUrl?: string;
+    hasBackgroud?: boolean;
 }
 
-const SocialMediaCard: React.FC<ISocialMedia> = ({ instagramUrl, facebookUrl }) => {
+const SocialMediaCard: React.FC<ISocialMedia> = ({ instagramUrl, facebookUrl, hasBackgroud }) => {
     return (
         <div className="member big-screen member-right">
             <div className="member-info">
                 <div className="member-content">
                     <div
-                        className="member-social-holder"
+                        className={`member-social-holder ${!hasBackgroud && 'is-transparent'}`}
                         data-jarallax-element="0 -30"
                     >
                         {facebookUrl && <div className="social">

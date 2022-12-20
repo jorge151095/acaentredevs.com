@@ -13,7 +13,7 @@ const Container = () => {
 
             <TopCard label="SERVICES" />
 
-            <SocialMediaCard instagramUrl='https://www.instagram.com/jorgeahg/' facebookUrl='https://www.facebook.com/jorgeahg'/>
+            <SocialMediaCard instagramUrl='https://www.instagram.com/jorgeahg/' facebookUrl='https://www.facebook.com/jorgeahg' hasBackgroud/>
             <SocialMediaCard instagramUrl='https://www.instagram.com/otro/' />
 
             <Card
