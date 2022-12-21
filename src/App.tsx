@@ -3,7 +3,7 @@ import './App.scss';
 import { Route, Routes } from 'react-router-dom';
 import MainLayout from './layout';
 import Container from './layout/container';
-import "@fontsource/rubik";
+import '@fontsource/rubik';
 
 function App() {
     return (

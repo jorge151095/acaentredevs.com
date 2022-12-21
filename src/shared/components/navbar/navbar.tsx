@@ -3,6 +3,7 @@ import { IoMdClose } from 'react-icons/io';
 import { VscMenu } from 'react-icons/vsc';
 import './navbar.scss';
 import { Link } from 'react-scroll';
+import img1 from '../../../assets/icons/logo.png';
 
 export const NavBar = () => {
     const [isRightNavOpen, setRightNavOpenValue] = useState(false);
@@ -28,7 +29,9 @@ export const NavBar = () => {
                         <VscMenu className="icon" />
                     )}
                 </div>
-                ICON
+                <div className="header-logo">
+                    <img src={img1} alt="" />
+                </div>
                 <Link
                     className="link"
                     activeClass="active"
