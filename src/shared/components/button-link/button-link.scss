@@ -3,7 +3,7 @@ body a.button {
     color: #fff;
     background-color: #47ea4e;
     text-align: left;
-    padding: 10px 40px;
+    padding: 0 32px;
     cursor: pointer;
     vertical-align: middle;
     text-decoration: none;
@@ -12,7 +12,7 @@ body a.button {
     border: 2px solid #47ea4e;
     border-radius: 50px;
     font-size: 14px;
-    letter-spacing: 2px;
+    letter-spacing: 10px;
     box-sizing: border-box;
     font-size: 'Rubik', sans-serif;
 }
@@ -24,7 +24,7 @@ a.button:hover {
 
 a.button-dot {
     color: #fff !important;
-    font-size: 16px;
+    font-size: 25px;
     position: relative;
 }
 
@@ -45,7 +45,7 @@ a.button-dot:hover span {
 
 a.button-dot:before {
     content: '';
-    width: 30px;
+    width: 40px;
     height: 30px;
     border: 2px solid #fff;
     background: transparent;

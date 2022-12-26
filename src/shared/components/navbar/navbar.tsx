@@ -52,7 +52,7 @@ export const NavBar = () => {
                     duration={800}
                     onClick={closeMobileMenu}
                 >
-                    Service
+                    Servicios
                 </Link>
                 <Link
                     className="link"
@@ -68,50 +68,6 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="portfolio"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    Clients
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
-                    to="education"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    News
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
-                    to="about"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    Portfolio
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
-                    to="contact"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    Pricing
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
                     to="contact"
                     smooth={true}
                     offset={-60}
@@ -119,28 +75,6 @@ export const NavBar = () => {
                     onClick={closeMobileMenu}
                 >
                     Team
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
-                    to="contact"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    Skills
-                </Link>
-                <Link
-                    className="link"
-                    activeClass="active"
-                    to="contact"
-                    smooth={true}
-                    offset={-60}
-                    duration={800}
-                    onClick={closeMobileMenu}
-                >
-                    Millestone
                 </Link>
                 <Link
                     className="link"
