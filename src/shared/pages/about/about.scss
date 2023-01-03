@@ -1,17 +1,42 @@
-.content {
+.about {
     background-color: white;
     width: 100vw;
-    height: calc(100vh - 60px);
+    height: calc(120vh - 60px);
     padding-inline: 0;
     margin: 0;
-}
-.cuadro-text {
-    width: 350px;
-    height: 400px;
-    justify-content: center;
-}
-.img {
-    float: left;
-    width: 350px;
-    height: 400px;
+    align-items: center;
+
+    .container {
+        display: flex;
+
+        width: 100%;
+
+        .about__img {
+            display: flex;
+            right: 50px;
+            justify-content: center;
+            position: relative;
+            height: 600px;
+            width: 600px;
+            padding: 10px;
+            margin-top: 25px;
+        }
+
+        .text {
+            position: relative;
+            padding: 5%;
+            margin-top: 40px;
+        }
+    }
+
+    .titulo {
+        color: black;
+        font-size: 50px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .subtitulo {
+        font-size: 20px;
+        font-family: 'Rubik', sans-serif;
+    }
 }

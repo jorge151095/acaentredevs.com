@@ -1,3 +1,6 @@
+.is-transparent {
+    background: transparent !important;
+}
 .section-wrapper {
     position: relative;
     padding: 200px 0 115px 0;
@@ -20,14 +23,12 @@
 .social-holder a:last-of-type {
     margin: 0;
 }
-.member-social-holder .social a {
-    color: #fff !important;
-}
 
 .member-social-holder {
     right: 0 !important;
     left: 0 !important;
-    width: 100%;
+    width: 50%;
+    height: 25%;
     text-align: center;
     padding: 25px 0;
 }
@@ -37,9 +38,6 @@
     right: -45px;
 }
 
-.member-social-holder .social a {
-    color: #fff !important;
-}
 .portfolio-content-wrapper.show {
     display: block;
 }
@@ -60,7 +58,6 @@
 }
 .member-info {
     width: 380px;
-    background-color: #fff;
     padding: 65px 110px;
     display: inline-block;
     vertical-align: middle;
@@ -103,7 +100,6 @@
 
 .member-info {
     width: 380px;
-    background-color: #fff;
     padding: 65px 110px;
     display: inline-block;
     vertical-align: middle;
@@ -147,15 +143,7 @@
     left: -45px;
 }
 
-.is-transparent {
-    background-color: #fff !important;
-}
-
 .member-right .member-social-holder {
     left: auto;
     right: -45px;
-}
-
-.member-social-holder .social a {
-    color: #fff !important;
 }

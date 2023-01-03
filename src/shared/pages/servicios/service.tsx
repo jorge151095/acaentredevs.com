@@ -9,7 +9,8 @@ interface IService {
 
 const Service: React.FC<IService> = ({ title }) => {
     return (
-        <div className="conteiner" id="service">
+        <div className="service__conteiner">
+            <div className="hidden_top" id="service"></div>
             <TopCard label="SERVICES" />
             <div className="cards">
                 <div className="card1">

@@ -35,7 +35,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="home"
+                    to="#home"
                     smooth={true}
                     offset={-60}
                     duration={800}
@@ -46,7 +46,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="skills"
+                    to="#service"
                     smooth={true}
                     offset={-60}
                     duration={800}

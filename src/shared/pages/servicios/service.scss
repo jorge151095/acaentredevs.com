@@ -1,0 +1,33 @@
+@import './../../styles/shared.scss';
+
+.service__conteiner {
+    background-color: black;
+    width: 100vw;
+    height: calc(110vh - 60px);
+    padding-inline: 0;
+    margin: 0;
+    padding-inline: 0;
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        height: 100vw;
+        height: calc(100vh - 60px);
+    }
+    .card1 {
+        width: 350px;
+        height: 400px;
+        float: left;
+    }
+    .card2 {
+        width: 350px;
+        height: 400px;
+        float: left;
+    }
+    .card3 {
+        width: 350px;
+        height: 400px;
+        float: left;
+    }
+}

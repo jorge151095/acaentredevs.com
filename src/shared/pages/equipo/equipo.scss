@@ -1,0 +1,82 @@
+.team__contenedor {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    padding-inline: 0;
+    margin: 0;
+
+    .member-container {
+        display: flex;
+
+        .team_caja1 {
+            padding-top: 50px;
+        }
+        .team__texto {
+            background-color: white;
+            min-width: 500px;
+            height: 500px;
+            position: relative;
+            margin-top: 150px;
+            left: 80px;
+            padding: 10%;
+            align-items: center;
+            justify-content: center;
+
+            .team__title {
+                color: black;
+                font-size: 45px;
+            }
+        }
+
+        .equipo__img1 {
+            margin-top: 100px;
+            width: 500px;
+            height: 600px;
+            left: 170px;
+            position: relative;
+            padding-top: 50px;
+        }
+
+        .team__socialcard {
+            z-index: 20;
+            position: relative;
+            right: 570px;
+            padding-top: 578px;
+        }
+        .imag2 {
+            margin-top: 100px;
+            width: 500px;
+            height: 600px;
+            left: 620px;
+            position: relative;
+            padding-top: 50px;
+        }
+        .caja2 {
+            padding-top: 50px;
+        }
+        .texto2 {
+            background-color: white;
+            min-width: 500px;
+            height: 500px;
+            position: relative;
+            margin-top: 150px;
+            right: 400px;
+            padding: 10%;
+            align-items: center;
+            justify-content: center;
+
+            .team__title {
+                color: black;
+                font-size: 45px;
+            }
+        }
+        .socialcard2 {
+            z-index: 20;
+            position: relative;
+            right: 570px;
+            padding-top: 578px;
+        }
+    }
+}

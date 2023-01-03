@@ -1,18 +1,23 @@
-.container {
+.home__container {
     background-image: url(../../../assets/img/imgportada.png);
     width: 100vw;
     height: calc(100vh - 60px);
     display: inline-block;
     text-align: center;
+    position: relative;
 }
 
-.content-color {
+.home__content--color {
     position: absolute;
     color: white;
     font-family: 'Rubik', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 120%;
     margin-bottom: 40px;
     top: 30%;
     left: 20%;
+}
+.title-prin {
+    font-size: 60px !important;
+    font-family: 'Rubik', sans-serif;
 }

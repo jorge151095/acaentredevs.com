@@ -11,20 +11,19 @@ interface IAbout {
 
 const About: React.FC<IAbout> = ({ title, content, subtitle }) => {
     return (
-        <div className="content" id="about">
-            <TopCard label="About" />
-            <div className="cuadro-text">
-                <div>
-                    <h3>{subtitle}</h3>
-                </div>
-                <div>
-                    <h1>{title}</h1>
+        <div className="about" id="about">
+            <TopCard label="ABOUT" />
+            <div className="container">
+                <div className="text">
+                    <h3 className="subtitulo">{subtitle}</h3>
+                    <h1 className="titulo">{title}</h1>
                     <p>{content}</p>
+                    <div className="button">
+                        <ButtonLink label="LEARN MORE" href="" />
+                    </div>
                 </div>
-                <div>
-                    <ButtonLink label="LEARN MORE" href="" />
-                </div>
-                <div className="img">
+
+                <div className="about__img">
                     <img src={img01} alt="" />
                 </div>
             </div>

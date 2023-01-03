@@ -1,20 +1,16 @@
 import React from 'react';
-// import { ButtonLink } from '../../shared/components/button-link/button-link';
-// import { TopCard } from '../../shared/components/top-card/top-card';
-// import { SocialMediaCard } from '../../shared/components/social-media-card/social-media-card';
-// import { Card } from '../../shared/components/card/card';
-// import { BlogCard } from '../../shared/components/blog-card/blog-card';
-// import { PresentationCard } from '../../shared/components/presentation-card/presentation-card';
 import { Home } from '../../shared/pages/home/home';
-import { Service } from '../../shared/pages/service/service';
+import { Service } from '../../shared/pages/servicios/service';
 import { About } from '../../shared/pages/about/about';
+import { Team } from '../../shared/pages/equipo/equipo';
+import { Contact } from '../../shared/pages/contacto/contacto';
 const Container = () => {
     return (
         <>
-            <Home title="Acá entre d evs" />
+            <Home title="Acá entre devs" />
             <Service title="WHO WE ARE" />
             <About
-                subtitle=""
+                subtitle="WHO WE ARE"
                 title="Live up to
             your creative potential."
                 content="Code the energy hidden in matter citizens
@@ -22,7 +18,16 @@ const Container = () => {
             perga inconspicuous motespatch clean designed code 
             and energy matter."
             />
+            <Team />
+
+            <Contact
+                subtitulo="CONTACT US"
+                title="Lets startWorking"
+                content="Because they are hard, because that goal will serve to organize and measure the best of our energies and skills, 
+            because that challenge is one that we are willing to accept one we are."
+            />
         </>
+
         //         // <div>
         //         //     <ButtonLink label="LEARN MORE" href="" />
 

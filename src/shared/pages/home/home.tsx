@@ -8,9 +8,9 @@ interface IHome {
 
 const Home: React.FC<IHome> = ({ title }) => {
     return (
-        <div className="container">
-            <div className="content-color ">
-                <h1>{title}</h1>
+        <div className="home__container">
+            <div className="home__content--color ">
+                <h1 className="title-prin">{title}</h1>
                 <ButtonLink label="LEARN MORE" href="#service" />
             </div>
         </div>
