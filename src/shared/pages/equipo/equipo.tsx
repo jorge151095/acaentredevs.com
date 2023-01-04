@@ -27,7 +27,7 @@ const teamData: ITeamMember[] = [
 
 const Team: React.FC = () => {
     return (
-        <div className="team__contenedor">
+        <div className="team__contenedor" id="team">
             <TopCard label="TEAM" />
             {teamData.map((member, index) => {
                 const isRight = index % 2;

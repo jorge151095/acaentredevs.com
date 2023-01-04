@@ -10,7 +10,7 @@ interface IContact {
 
 const Contact: React.FC<IContact> = ({ title, content, subtitulo }) => {
     return (
-        <div className="contact_content">
+        <div className="contact_content" id="contact">
             <TopCard label="CONTACT" />
             <div className="contact__caja">
                 <div className="contact__text">

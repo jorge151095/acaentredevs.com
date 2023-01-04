@@ -35,7 +35,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="#home"
+                    to="home"
                     smooth={true}
                     offset={-60}
                     duration={800}
@@ -46,7 +46,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="#service"
+                    to="service"
                     smooth={true}
                     offset={-60}
                     duration={800}
@@ -57,7 +57,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="experience"
+                    to="about"
                     smooth={true}
                     offset={-60}
                     duration={800}
@@ -68,7 +68,7 @@ export const NavBar = () => {
                 <Link
                     className="link"
                     activeClass="active"
-                    to="contact"
+                    to="team"
                     smooth={true}
                     offset={-60}
                     duration={800}
