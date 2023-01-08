@@ -1,5 +1,5 @@
 .home__container {
-    background-image: url(../../../assets/img/imgportada.png);
+    background-image: url(../../../assets/img/portada.jpg);
     width: 100vw;
     height: calc(100vh - 60px);
     display: inline-block;
@@ -8,6 +8,8 @@
 }
 
 .home__content--color {
+    display: flex;
+    flex-direction: column;
     position: absolute;
     color: white;
     font-family: 'Rubik', sans-serif;

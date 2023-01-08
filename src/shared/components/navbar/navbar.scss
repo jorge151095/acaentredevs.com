@@ -1,8 +1,11 @@
 @import './colors.scss';
 
 .navbar-container {
+    display: flex;
+    align-items: center;
     width: 100%;
-
+    height: 60px;
+    background-color: $dark-background__color;
     font-family: 'Rubik', sans-serif;
 
     &.active {
@@ -17,10 +20,10 @@
         justify-content: center;
         align-items: flex-end;
         overflow: hidden;
-        position: fixed;
         top: 0;
-        background-color: $dark-background__color;
+        position: fixed;
         z-index: 999;
+        background-color: $dark-background__color;
 
         &.active {
             width: 60%;
@@ -36,7 +39,6 @@
                 align-items: center;
                 width: calc(100% - 24px);
                 height: 40px;
-                border-top: 1px solid rgba(255, 255, 255, 0.1);
                 color: #a6a6a6;
                 margin: 0;
                 padding-left: 24px;
@@ -101,6 +103,7 @@
             flex-direction: row;
             justify-content: flex-end;
             align-items: center;
+            
 
             > .link {
                 display: flex;
@@ -139,6 +142,19 @@
             }
         }
     }
+
+    .header-logo {
+        line-height: 0;
+        font-size: 0;
+        float: left;
+        padding-left: 4%;
+        z-index: 9999;
+    }
+
+    .header-logo img {
+        width: 100%;
+        height: 50px;
+    }    
 }
 
 @keyframes xtranslate {
@@ -149,12 +165,4 @@
         right: 0%;
     }
 }
-.header-logo {
-    line-height: 0;
-    font-size: 0;
-    float: left;
-}
-.header-logo img {
-    width: 88px;
-    height: 50px;
-}
+

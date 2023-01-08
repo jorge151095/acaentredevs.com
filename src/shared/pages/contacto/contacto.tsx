@@ -11,21 +11,19 @@ interface IContact {
 const Contact: React.FC<IContact> = ({ title, content, subtitulo }) => {
     return (
         <div className="contact_content" id="contact">
-            <TopCard label="CONTACT" />
+            <TopCard label="CONTACTO" />
             <div className="contact__caja">
                 <div className="contact__text">
                     <h3 className="contact__text--subtitulo">{subtitulo}</h3>
                     <h1 className="contact__text--title">{title}</h1>
                     <p>{content}</p>
 
-                    <div className="contacto__social">
-                        <SocialMediaCard
-                            instagramUrl="https://www.instagram.com/acaentredevs/"
-                            facebookUrl="https://www.facebook.com/acaentredevs"
-                            twitterUrl="https://twitter.com/acaentredevs"
-                            youtubeUrl="https://www.youtube.com/@acaentredevs"
-                        />
-                    </div>
+                    <SocialMediaCard
+                        instagramUrl="https://www.instagram.com/acaentredevs/"
+                        facebookUrl="https://www.facebook.com/acaentredevs"
+                        twitterUrl="https://twitter.com/acaentredevs"
+                        youtubeUrl="https://www.youtube.com/@acaentredevs"
+                    />
                 </div>
             </div>
         </div>

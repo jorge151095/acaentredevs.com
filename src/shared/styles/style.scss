@@ -438,6 +438,7 @@ body a.button {
     font-size: 14px;
     letter-spacing: 2px;
     box-sizing: border-box;
+    width: max-content;
 }
 
 a.button:hover {
@@ -894,74 +895,6 @@ h1.big-text {
 
 .close-icon:hover {
     transform: translateX(-5px);
-}
-
-/* ===================================
-    10. Team Section CSS
-====================================== */
-
-.member {
-    text-align: center;
-    margin: 70px 0;
-}
-
-.member img {
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 700px;
-}
-
-.member-content {
-    margin-bottom: 35px;
-}
-
-.member-info {
-    width: 380px;
-    padding: 65px 110px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: -130px;
-    text-align: left;
-    position: relative;
-    z-index: 31;
-}
-
-.member-right .member-info {
-    margin-left: auto;
-    margin-right: -130px;
-}
-
-.member-postition {
-    margin: 0;
-    font-size: 16px;
-    letter-spacing: 2px;
-}
-
-.member-name {
-    font-size: 48px;
-    font-weight: 700;
-    color: #000;
-    line-height: 150%;
-    margin-bottom: 35px;
-    margin-top: -5px;
-    padding: 0;
-}
-
-.member-social-holder {
-    background: #47ea4e;
-    padding: 25px 50px;
-    position: absolute;
-    bottom: -35px;
-    left: -45px;
-}
-
-.member-right .member-social-holder {
-    left: auto;
-    right: -45px;
-}
-
-.member-social-holder .social a {
-    color: #fff !important;
 }
 
 /* ===================================

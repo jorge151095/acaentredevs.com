@@ -14,13 +14,13 @@
             padding-top: 50px;
         }
         .team__texto {
+            width: 100%;
             background-color: white;
             min-width: 500px;
-            height: 500px;
-            position: relative;
-            margin-top: 150px;
+            height: max-content;
             left: 80px;
             padding: 10%;
+            margin-bottom: 36px;
             align-items: center;
             justify-content: center;
 
@@ -39,12 +39,6 @@
             padding-top: 50px;
         }
 
-        .team__socialcard {
-            z-index: 20;
-            position: relative;
-            right: 570px;
-            padding-top: 578px;
-        }
         .imag2 {
             margin-top: 100px;
             width: 500px;
@@ -59,9 +53,8 @@
         .texto2 {
             background-color: white;
             min-width: 500px;
-            height: 500px;
-            position: relative;
-            margin-top: 150px;
+            height: max-content;
+            margin-top: 50px;
             right: 400px;
             padding: 10%;
             align-items: center;
@@ -71,12 +64,6 @@
                 color: black;
                 font-size: 45px;
             }
-        }
-        .socialcard2 {
-            z-index: 20;
-            position: relative;
-            right: 570px;
-            padding-top: 578px;
         }
     }
 }

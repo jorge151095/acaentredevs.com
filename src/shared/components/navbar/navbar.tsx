@@ -21,6 +21,9 @@ export const NavBar = () => {
                 className={isRightNavOpen ? 'background active' : 'background'}
                 onClick={closeMobileMenu}
             ></div>
+            <div className="header-logo">
+                <img src={img1} alt="" />
+            </div>
             <div className={isRightNavOpen ? 'list active' : 'list'}>
                 <div className="link menu" onClick={handleRightNav}>
                     {isRightNavOpen ? (
@@ -28,9 +31,6 @@ export const NavBar = () => {
                     ) : (
                         <VscMenu className="icon" />
                     )}
-                </div>
-                <div className="header-logo">
-                    <img src={img1} alt="" />
                 </div>
                 <Link
                     className="link"
@@ -63,7 +63,7 @@ export const NavBar = () => {
                     duration={800}
                     onClick={closeMobileMenu}
                 >
-                    About
+                    Acerca de
                 </Link>
                 <Link
                     className="link"
@@ -74,7 +74,7 @@ export const NavBar = () => {
                     duration={800}
                     onClick={closeMobileMenu}
                 >
-                    Team
+                    Equipo
                 </Link>
                 <Link
                     className="link"
@@ -85,7 +85,7 @@ export const NavBar = () => {
                     duration={800}
                     onClick={closeMobileMenu}
                 >
-                    Contact
+                    Contacto
                 </Link>
             </div>
         </nav>

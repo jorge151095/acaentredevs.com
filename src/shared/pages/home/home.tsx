@@ -11,7 +11,7 @@ const Home: React.FC<IHome> = ({ title }) => {
         <div className="home__container" id="home">
             <div className="home__content--color ">
                 <h1 className="title-prin">{title}</h1>
-                <ButtonLink label="LEARN MORE" href="#service" />
+                <ButtonLink label="CONOCER MÁS" href="#service" />
             </div>
         </div>
     );
